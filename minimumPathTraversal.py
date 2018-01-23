@@ -29,7 +29,7 @@ def find_row(lower, upper):
 # Read the input file and convert them into lists.
 # We are calling the parser logic, travering the
 # tree to find min_path and printing the minimum path value calculated.
-constructTriangle = parse_infile("large_triangle.txt")
+constructTriangle = parse_infile("small_triangle.txt")
 
 res = []
 
