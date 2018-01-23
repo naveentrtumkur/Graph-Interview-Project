@@ -1,7 +1,7 @@
 
 
 #def parse_infile("triangle.txt"):
-obj= [[int(i) for i in l.strip('\n').split()] for l in open("large_triangle.txt","r").readlines()]
+obj= [[int(i) for i in l.strip('\n').split()] for l in open("small_triangle.txt","r").readlines()]
 print(obj)
 
 i=0
